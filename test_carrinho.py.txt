@@ -1,0 +1,11 @@
+test_carrinho.py
+from carinho import calcular total, aplicar desconto
+
+	def test_calcular_total():
+		resultado = calcular total(10,3)
+		assert resultado == 30
+	def test_aplicar_desconto():
+		total = 100
+		desconto = 0.1
+		resultado = aplicar desconto(total, desconto)
+		assert resultado == 90
