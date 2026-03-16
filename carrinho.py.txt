@@ -1,0 +1,6 @@
+carrinho.py
+	def calcular total(preco, quantidade):
+		return preco * quantidade
+	def aplicar desconto(total, desconto):
+		return total-(total * desconto)
+
